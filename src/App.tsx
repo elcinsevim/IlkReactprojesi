@@ -11,6 +11,7 @@ function App() {
         <Header size='huge'>Huge Header</Header>
        <CardExample/>
        <FormExample/>
+       <FormExample/>
     </Container>
      
      
