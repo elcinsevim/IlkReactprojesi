@@ -1,21 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { CardExample } from './Examples/CardExample';
-import { Container, Header } from 'semantic-ui-react';
-import { FormExample } from './Examples/FormExample';
-
-function App() {
+import React from 'react'
+import { Container } from 'semantic-ui-react';
+import { ListRelaxed } from './features/ListRelaxed';
+ 
+export const App = () => {
   return (
+    <div>
     <Container>
-        <Header size='huge'>Huge Header</Header>
-       <CardExample/>
-       <FormExample/>
-       <FormExample/>
+     <ListRelaxed/> 
     </Container>
-     
-     
-  );
+
+  </div>
+  )
 }
 
 export default App;
